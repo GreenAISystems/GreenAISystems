@@ -1,4 +1,14 @@
-from .role import Role 
+from .role import Role
+from .utilisateur import Utilisateur 
+from .session_connexion import SessionConnexion 
+from .parcours_apprentissage import ParcoursApprentissage 
+from .cours import Cours 
+from .session_apprentissage import SessionApprentissage 
+from .reponse_ia import ReponseIA 
+from .empreinte_carbone import EmpreinteCarbone 
+from .plantation_arbres import PlantationArbres 
+from .historique_api import HistoriqueAPI 
+from .parcours_cours import ParcoursCours  
 
 from sqlalchemy.orm import sessionmaker
 from app.database import engine, Base
